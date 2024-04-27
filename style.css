@@ -1,0 +1,107 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --base: #12372A;
+  --basegreen: #436850;
+  --yellow: #ADBC9F;
+  --yellow-100: #FBFADA;
+  --blackgreen: #435334
+}
+
+span {
+  font-size: 2rem;
+  font-weight: 600;
+  background-color: var(--base);
+  border-radius: 10px;
+  
+  
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+.job {
+  font-size: 1.5rem;
+  background-color: var(--base);
+  padding-left: 10px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.jobdesc {
+  padding-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* จัดหน้า */
+main {
+  display: flex;
+}
+/* navbar */
+.navbar {
+  position: absolute;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  
+  right: 4%;
+  top: 0;
+
+  
+  ul {
+    list-style: none;
+    background-color: #12372A;
+    border: solid 3px var(--blackgreen);
+    border-radius: 10px;
+    
+
+    li {
+      display: flex;
+      justify-content: center;
+      padding: 2em 1em 2em 1em;
+      i {
+        font-size: 25px;
+        color: var(--yellow-100);
+      }
+    }
+  }
+
+}
+
+.left {
+  flex: 1;
+  height: 100vh;
+  background-color: var(--basegreen);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  .container {
+    padding-left: 100px;
+    padding-right: 20px;
+  }
+}
+
+.right {
+  flex: 1;
+  height: 100vh;
+  background-image: url(./images/profile.jpg);
+  background-size: cover;
+}
