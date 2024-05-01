@@ -37,16 +37,8 @@ h1 {
 
 .jobdesc {
   padding-left: 10px;
+  font-size: 24px;
 }
-
-
-
-
-
-
-
-
-
 
 
 
@@ -111,8 +103,6 @@ main {
   align-content: center;
   justify-content: center;
   background-color: var(--base);
-  /* background-image: url(./images/profile.jpg);
-  background-size: cover; */
   @media (max-width: 768px) {
     
   } 
